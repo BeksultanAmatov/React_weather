@@ -1,0 +1,14 @@
+.right-side{
+    width: 40%;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .right-side {
+      background-color: red;
+    }
+}
